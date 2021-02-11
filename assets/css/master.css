@@ -124,10 +124,47 @@ h1, h2, h3{
 }
 /* JUMBTRON */
 
-/* PRIMA SEZIONE */
+/* SECTION-1 */
 .divider:before, .divider:after{
   background-color: #000000;
 }
+
+.section-1 .card{
+  height: 485px;
+  margin: 40px 18px;
+  border-radius: 2%;
+}
+#cabin{
+  background-image: url("../img/cabin.png");
+  background-position: center;
+  background-size: 85%;
+}
+#cake{
+  background-image: url("../img/cake.png");
+  background-position: center;
+  background-size: 85%;
+}
+#circus{
+  background-image: url("../img/circus.png");
+  background-position: center;
+  background-size: 85%;
+}
+#game{
+  background-image: url("../img/game.png");
+  background-position: center;
+  background-size: 85%;
+}
+#safe{
+  background-image: url("../img/safe.png");
+  background-position: center;
+  background-size: 85%;
+}
+#submarine{
+  background-image: url("../img/submarine.png");
+  background-position: center;
+  background-size: 85%;
+}
+
 
 /* MOBILE */
 
