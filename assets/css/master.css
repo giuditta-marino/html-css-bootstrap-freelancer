@@ -3,8 +3,17 @@ body, html{
 }
 
 /* MOBILE */
+/* GENERAL */
+h1, h2, h3{
+  font-weight: 700;
+}
+/* GENERAL */
 
 /* NAVBAR */
+.navbar{
+  margin-bottom: 0;
+}
+
 .navbar-default{
   background-color: #2c3e50;
   background-image: none;
@@ -59,6 +68,60 @@ body, html{
 }
 /* NAVBAR */
 
+/* JUMBTRON */
+.jumbtron{
+  background-color: #1abc9c;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.jumbtron .col-xs-10{
+  margin-bottom: 40px;
+}
+
+.jumbtron .col-xs-10 img{
+  margin-top: 45px;
+  width: 55%;
+}
+
+.jumbtron h1{
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+
+.jumbtron h3{
+  margin-top: 25px;
+  font-size: 19px;
+}
+
+.jumbtron .divider i{
+  font-size: 50px;
+}
+
+.divider{
+  width: 300px;
+  margin: 0 auto;
+}
+
+.divider:before, .divider:after{
+  content:'';
+  display: block;
+  width: 37%;
+  height: 7px;
+  margin-top: 22px;
+  background-color: #ffffff;
+}
+
+.divider:before{
+  float: left;
+}
+
+.divider:after{
+  float: right;
+}
+
+/* JUMBTRON */
+
 /* MOBILE */
 
 /* TABLET */
@@ -69,14 +132,33 @@ body, html{
   }
 
   .navbar-default .navbar-nav>li>a{
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
 
   ul.nav.navbar-nav.navbar-right{
     padding-top: 9px;
+
+  }
+  /* NAVBAR */
+
+  /* JUMBTRON */
+  .jumbtron .col-xs-10 img{
+    margin-top: 60px;
+    width: 30%;
+  }
+
+  .jumbtron h1{
+    font-size: 55px;
+  }
+
+  .jumbtron h3{
+    font-size: 28px;
+  }
+
+  .jumbtron .col-xs-10{
+    margin-bottom: 60px;
   }
 }
-/* NAVBAR */
 /* TABLET */
 
 /* DESKTOP */
@@ -98,6 +180,30 @@ body, html{
 
   .navbar-default .navbar-brand{
     padding-top: 16px;
+  }
+
+  /* JUMBTRON */
+  .jumbtron .col-xs-10 img{
+    margin-top: 60px;
+    width: 25%;
+  }
+
+  .jumbtron h1{
+    margin-bottom: 35px;
+    font-size: 65px;
+  }
+
+  .jumbtron h3{
+    margin-top: 25px;
+    font-size: 30px;
+  }
+
+  .divider{
+    width: 550px;
+  }
+
+  .jumbtron .col-xs-10{
+    margin-bottom: 80px;
   }
   /* NAVBAR */
   /* DESKTOP */
