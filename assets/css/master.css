@@ -94,7 +94,7 @@ h1, h2, h3{
   font-size: 19px;
 }
 
-.jumbtron .divider i{
+.divider i{
   font-size: 50px;
 }
 
@@ -109,7 +109,10 @@ h1, h2, h3{
   width: 37%;
   height: 7px;
   margin-top: 22px;
-  background-color: #ffffff;
+}
+
+.jumbtron .divider:before, .jumbtron .divider:after{
+ background-color: #ffffff;
 }
 
 .divider:before{
@@ -119,8 +122,12 @@ h1, h2, h3{
 .divider:after{
   float: right;
 }
-
 /* JUMBTRON */
+
+/* PRIMA SEZIONE */
+.divider:before, .divider:after{
+  background-color: #000000;
+}
 
 /* MOBILE */
 
