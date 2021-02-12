@@ -209,16 +209,50 @@ h1, h2, h3{
   width: 30%;
 }
 
-.section-2 .about{
+.section-2 .row-about{
   margin-top: 50px;
 }
 
 .row-button{
   padding-top: 50px;
+  padding-bottom: 40px;
 }
 
 .section-2 .freelancer, .section-2 .whether, .section-2 .divider{
   padding-top: 38px;
+}
+
+.freelancer, .whether{
+  padding: 0 50px;
+}
+
+/* TERZA SEZIONE */
+.contact-me .divider:before, .contact-me .divider:after{
+  background-color: #000000;
+}
+
+.section-3 h3{
+  font-size: 2.4em;
+}
+
+.section-3 .divider{
+  width: 26%;
+}
+
+.section-3 .divider:before, .section-3 .divider:after{
+  width: 30%;
+}
+
+.input-text{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 300px;
+  text-transform: capitalize;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  font-size: 1.7em;
+  font-weight: 600;
+  color: #000000;
 }
 
 /* BUTTON */
@@ -269,6 +303,19 @@ h1, h2, h3{
 
   .jumbtron .col-xs-10{
     margin-bottom: 60px;
+  }
+
+  /* SECONDA SEZIONE */
+  .freelancer, .whether{
+    padding: 0 20px;
+  }
+
+  .freelancer{
+    padding-left: 90px;
+  }
+
+  .whether{
+    padding-right: 90px;
   }
 }
 
