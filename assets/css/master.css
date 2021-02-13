@@ -62,6 +62,14 @@ h2{
   font-weight: 400;
 }
 
+.navbar-default .navbar-nav>li>a:hover{
+  color: #1abc9c;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+  color: #ffffff;
+}
+
 .navbar-default .navbar-collapse{
   border: 0;
   box-shadow: none;
@@ -248,6 +256,9 @@ h2{
   margin-bottom: 50px;
 }
 
+.p-50{
+  padding: 0 50px;
+}
 /* FOOTER */
 
 footer{
@@ -444,7 +455,6 @@ footer{
 
   ul.nav.navbar-nav.navbar-right{
     padding: 0;
-    /* line-height: 79px; */
   }
 
   .navbar-default .navbar-brand{
@@ -452,9 +462,9 @@ footer{
   }
 
   /* JUMBTRON */
-  .jumbtron .col-xs-10 img{
+  .jumbtron img{
     margin-top: 60px;
-    width: 25%;
+    width: 22%;
   }
 
   .jumbtron h1{
@@ -468,7 +478,7 @@ footer{
   }
 
   .divider{
-    width: 550px;
+    width: 25%;
   }
 
   .jumbtron .col-xs-10{
