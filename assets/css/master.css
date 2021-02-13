@@ -275,6 +275,48 @@ h1, h2, h3{
 }
 
 /* FOOTER */
+.footer-1 i{
+  font-size: 1.7em;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.footer-1 .fa-facebook-f{
+  /* padding: 30px 34px; */
+}
+
+.green-sp{
+  color: #1abc9c;
+}
+/* FOOTER-2 */
+.footer-2{
+  background-color: #2c3e50;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.copyright:after{
+  content: ' \00A9';
+}
+
+/* UTILITY */
+.mr-10{
+  margin-right: 10px;
+}
+
+.mt-70{
+  margin-top: 70px;
+}
+
+.mb-70{
+  margin-bottom: 70px;
+}
+
+.mb-50{
+  margin-bottom: 50px;
+}
+/* FOOTER */
 
 footer{
   color: #ffffff;
@@ -357,6 +399,20 @@ footer{
 
   .whether{
     padding-right: 90px;
+  }
+
+  /* FOOTER */
+.footer-1{
+  font-size: 2.1em;
+}
+
+  .footer-1{
+    font-size: 0.7em;
+  }
+
+  .footer-1 i{
+    padding: 11px;
+    font-size: 1.6em;
   }
 }
 
