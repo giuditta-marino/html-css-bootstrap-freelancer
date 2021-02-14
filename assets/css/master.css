@@ -375,6 +375,19 @@ footer{
 
 .btn-green{
   background-color: #1abc9c;
+  transition: background 0.8s;
+}
+
+.btn-green:hover, .btn-green:active, .btn-green:focus{
+  text-decoration: none;
+  color: #ffffff;
+  background-color: rgba(19, 120, 100, 0.8);
+}
+
+.btn-download:hover, .btn-download:active, .btn-download:focus{
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
 }
 /* BUTTON */
 
