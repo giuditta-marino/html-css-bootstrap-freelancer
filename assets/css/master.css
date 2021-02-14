@@ -265,6 +265,10 @@ footer{
   color: #ffffff;
 }
 
+.footer-1 a{
+  color: #ffffff;
+}
+
 .footer-1{
   background-color: #3a546d;
 }
@@ -281,11 +285,11 @@ footer{
 }
 
 .footer-1 .fa-facebook-f{
-  padding: 12px 17px;
+  padding: 12px 16px;
 }
 
 .footer-1 .fa-google-plus-g{
-  padding: 12px 10px;
+  padding: 12px 12px;
 }
 
 .footer-1 .fa-twitter{
