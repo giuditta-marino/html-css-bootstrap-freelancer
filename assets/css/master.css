@@ -168,12 +168,11 @@ h2{
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #1abc9c;
+  background-color: rgba(26, 188, 156, 0.9);
   height: 100%;
   width: 100%;
   border-radius: 13px;
   visibility: hidden;
-  opacity: 85%;
 }
 
 .layover .fa-plus{
